@@ -2,6 +2,7 @@
 layout: post
 title: "Test post"
 date: 2020-04-06 11:00:00
+author: ash
 categories: test
 ---
 This post is intended to test the posting capabilities of my new blog.
