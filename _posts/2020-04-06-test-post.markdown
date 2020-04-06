@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Test post"
+date: 2020-04-06 11:00:00
+categories: test
+---
+This post is intended to test the posting capabilities of my new blog.
+
+I don't know if there's a good way to autogenerate the date and time fields in the header.
+
+End post.
+
+[test link][markdown-help]
+
+[markdown-help]: https://www.markdownguide.org/
