@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Welcome!"
+date: 2020-04-08 19:00:00 -0400
+categories: welcome
+---
+Hi! I'm Ash. Welcome to my blog. This is going to be a bit of a journey both as an author and a beginning web developer, given that this is the first website I've produced since high school. I'll be using this as an opportunity to learn some tools like Liquid (to work with [Jekyll][https://jekyllrb.com/]), [Vim][https://www.vim.org/] (for efficient writing and editing), and maybe a little bit of JavaScript and/or PHP, depending on what features I decide I need to enable later. 
+
+To elaborate, this is a *static* website, meaning it simply builds from files contained on the web without any need to make calls to a database. This makes it a little more difficult to enable traditional blogging features like comments, because comments are typically a *dynamically* generated feature. I can add JavaScript to host comments externally and embed them in the site with services like [Disqus][https://disqus.com/], but that comes with its own security flaws and look-and-feel problems for the site. What I'd like to do is enable a service like [Staticman][https://staticman.net/] but based on [others'][https://mademistakes.com/articles/jekyll-static-comments/] experiences with enabling Staticman, I'm not sure I'm that comfortable getting dirty with it just yet. So for now, this will be a comment free experience.
+
+In terms of content, this will be a mixed bag. I'll be posting little updates on my progress learning to code, format and otherwise make things pretty and functional, but as of now, I'm planning to devote the bulk of this blog to my personal life and thoughts on religion, politics, and the other things you don't discuss around the dinner table. I may scatter thoughts on my own personal development throughout, as well. I may elaborate further on what that means in future posts, but for now suffice it to say I'm going through some changes in my life and I'd like a space to document them in the strange, close-but-not-too-close way a blog allows for.
+
+I've only just created a Twitter, and I may not use it because conceptually I really dislike Twitter, but if you're interested, feel free to follow below. It might act as a pseudo comments section for the time being, if nothing else.
+
+That's all for now! Have fun!
