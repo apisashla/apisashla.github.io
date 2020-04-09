@@ -28,7 +28,7 @@ twitter_username: apisashla
 github_username:  apisashla
 
 # Build settings
-theme: jekyll-theme-merlot
+theme: minima
 plugins:
   - jekyll-feed
   - jemoji
