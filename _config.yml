@@ -21,7 +21,7 @@
 title: Apis Ashla
 email: ash@apisashla.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm Ash and this is my longform blog for my personal projects. My thoughts on writing, coding, and the messy bits of religion and politics should all find a place here.
+  I'm Ash
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://apisashla.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: apisashla

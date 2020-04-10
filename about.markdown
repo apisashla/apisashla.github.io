@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm Ashla and this is my longform blog. My thoughts on writing, coding, and the messy bits of religion and politics should all find a place here. Blog generated with [Jekyll](https://jekyllrb.com/), using the built-in Minima theme.
 
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /
