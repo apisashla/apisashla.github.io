@@ -4,7 +4,7 @@ title: "To Analyze Or Not To Analyze"
 date: 2020-04-10 11:00:00 -0400
 categories: google analytics
 ---
-I'm currently contemplating adding google analytics to this site, for the sake of being able to track visitors. The benefits are straightforward: I love attention, so I'd love to be able to see visitor stats. The detriments are that I'd have to compromise my principles to some extent. I'm a believer in privacy, for myself and others, and feeding my site data to Google's giant data warehouse seems wrong.
+I'm currently contemplating adding Google Analytics to this site, for the sake of being able to track visitors. The benefits are straightforward: I love attention, so I'd love to be able to see visitor stats. The detriments are that I'd have to compromise my principles to some extent. I'm a believer in privacy, for myself and others, and feeding my site data to Google's giant data warehouse seems wrong.
 
 I've looked into alternatives of course - for anyone self-hosting, [Matomo](https://matomo.org/) seems to be the method of choice for anyone looking to assert a little more control over their analytics, what's tracked, what isn't, and which privacy options are in place. The problem is I'm hosting with Github Pages, so I don't have a server to speak of, at least not to run tasks like this. Whereas with Google, I can open my Includes folder and add an innocuous little html file with an innocuous little bit of Javascript, and add an innocuous little tag to my \_config.yml folder,  and have it ready to go right off the bat. "What's the harm?" it seems to ask.
 
