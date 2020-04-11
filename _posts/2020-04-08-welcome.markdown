@@ -2,6 +2,7 @@
 layout: post
 title: "Welcome!"
 date: 2020-04-08 19:00:00 -0400
+categories: jekyll
 ---
 Hi! I'm Ash. Welcome to my blog. This is going to be a bit of a journey both as an author and a beginning web developer, given that this is the first website I've produced since high school. I'll be using this as an opportunity to learn some tools like Liquid (to work with [Jekyll](https://jekyllrb.com/)), [Vim](https://www.vim.org/) (for efficient writing and editing), and maybe a little bit of JavaScript and/or PHP, depending on what features I decide I need to enable later. 
 

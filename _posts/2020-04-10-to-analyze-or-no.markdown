@@ -2,6 +2,7 @@
 layout: post
 title: "To Analyze Or Not To Analyze"
 date: 2020-04-10 11:00:00 -0400
+categories: jekyll
 ---
 I'm currently contemplating adding Google Analytics to this site, for the sake of being able to track visitors. The benefits are straightforward: I love attention, so I'd love to be able to see visitor stats. The detriments are that I'd have to compromise my principles to some extent. I'm a believer in privacy, for myself and others, and feeding my site data to Google's giant data warehouse seems wrong.
 
