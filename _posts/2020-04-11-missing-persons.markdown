@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Missing Persons"
-date: 2020-04-11 22:00:00 -0400
+date: 2020-04-11 23:30:00 -0400
 categories: personal
 ---
 I've been thinking more about what I want this blog to be for me and others, and I've been thinking even more about why Github Pages is set up the way it is. It's a very convenient place for programmers and web developers to showcase some basic skills and get a free jumping-off point to build their personal brand - a professional photograph, a few tutorials for cutting-edge projects, and that sort of thing. I absolutely understand why that happens and I applaud those who have made it work for them. It is also, after only brief exposure to a handful of Jekyll/GitHub Pages sites, driving me absolutely bananas.
