@@ -30,8 +30,8 @@ github_username:  apisashla
 #mastodon:
 #  - username: salmonbill
 #    instance: rva.party
-#  - username: apisashla
-#    instance: librepunk.club
+  - username: apisashla
+    instance: librepunk.club
 # Build settings
 theme: minima
 plugins:
