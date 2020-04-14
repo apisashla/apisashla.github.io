@@ -27,7 +27,7 @@ url: "https://apisashla.com/" # the base hostname & protocol for your site, e.g.
 twitter_username: apisashla
 github_username:  apisashla
 #youtube_username: apisashla
-#mastodon:
+mastodon:
 #  - username: salmonbill
 #    instance: rva.party
   - username: apisashla
