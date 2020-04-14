@@ -31,7 +31,7 @@ mastodon:
 #  - username: salmonbill
 #    instance: rva.party
   - username: apisashla
-    instance: librepunk.club
+    instance: www.librepunk.club
 # Build settings
 theme: minima
 plugins:
