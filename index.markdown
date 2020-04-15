@@ -4,3 +4,6 @@
 
 layout: home
 ---
+## Heading
+
+You're reading the homepage for Ash's blog.
