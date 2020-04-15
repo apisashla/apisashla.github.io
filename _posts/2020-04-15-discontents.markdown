@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Discontents"
-date: 2020-04-15 00:20:00 -0400
+date: 2020-04-15 00:40:00 -0400
 categories: religion
 ---
 If you haven't figured it out already, this blog is not intended to be a project where I'm afraid to say something simply because someone else may have said it better elsewhere. I think that mindset, which I've operated in too often, is a huge barrier to actually thinking creatively. That is, if you never fall into ruts someone else has dug, then you will never find your way out of any either.
