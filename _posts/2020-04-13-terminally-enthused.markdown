@@ -3,6 +3,7 @@ layout: post
 title: "Terminally Enthused"
 date: 2020-04-13 02:35:00 -0400
 categories: terminal
+comments: true
 ---
 I get into cycles. I'll discover a great new productivity tool, then abandon it, then rediscover it months later and try to integrate it with everything, wash, rinse, repeat. This is maybe to be expected, given my clinically short attention span and fascination with the shiny and new. In order for an interest to stick, I've found it needs to be something I come back to again and again for different reasons. That's why today I'm writing about the terminal.
 
