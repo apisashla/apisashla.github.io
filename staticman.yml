@@ -80,3 +80,6 @@ comments:
     enabled: false
     #siteKey:
     #secret:
+  
+  #akismet settings
+  akismet.enabled: true
