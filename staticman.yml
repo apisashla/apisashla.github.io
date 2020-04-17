@@ -82,4 +82,4 @@ comments:
     #secret:
   
   #akismet settings
-  akismet.enabled: true
+  #akismet.enabled: true
