@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Comments!"
-date: 2020-04-16 23:03:00 -0400
+date: 2020-04-16 23:03:00
 categories: jekyll
 comments: true
 ---
