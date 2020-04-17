@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Missing Persons"
-date: 2020-04-11 23:30:00 -0400
+date: 2020-04-11 23:30:00
 categories: personal
 comments: true
 ---
