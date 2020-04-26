@@ -4,7 +4,7 @@
 # another one to handle posts.
 
 # used with notification emails
-allowedOrigins: ["apisashla.com"]
+#allowedOrigins: ["apisashla.com"]
 
 comments:
   # (*) REQUIRED
@@ -53,20 +53,20 @@ comments:
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
   # with Mailgun, which you can get for free at http://mailgun.com.
-  notifications:
+  # notifications:
     # Enable notifications
-    enabled: true
-    fromAddress: "noreply@apisashla.com"
+    #enabled: true
+    #fromAddress: "noreply@apisashla.com"
 
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    apiKey: "K1ENRJ7EVvhM2s4vtjrYXBh/AAIbYdaPlIUFNRV3s4MH3B4vqGTOl6Do6lrNuRDAkJFQy3JkuOx4wxifJDN5LzF4oklWtP23EP+Kk90oDWQXx3AesG8Ka6WINcPo14asUGGCUi57hnQuZokW5LZmO4vToBzwmn0nNrga79H9TaX6f8HCxDuWDCiBlLx35t+up+pxslJqBUDwNQSn3ru+TMBsFSau5rDJ8bhqzNyu0WeubvNUI4PwpdPBHcyM1KLu+GKUcHT32mkYqGjv34h9pLR6tbONn2SO+FUyt5dXC5H5tKjubeE8vFtVFAXLa1PckjCOns2YHusbl7+NAUzQOW7N18qULfB76co/xtuYFqG1cQVdi3k3x4Rk3b61mtT2FNr5O9bwk9q26IyE0baflyxEO6kuQj8lhbelRlP54HH2F5JY8MMyK21KEGlWPzxo//JU3taoEfLVFY5OQMUyttNlH8iqZz5Orvc68LjwJO6LSMzJYBDu+cmAvJK8CnJCnDK0sHYWle1YS2JTStK3bq/1MMsOTYNGRauaueH3ULnImLKXCWhhGvAyghYpB+bf2U6KYuDZj3RFc77xdrADlWdvIXuKTIbGHffQACz5dsibiHfkwVunT+To7ghSZWd01C5c3WpjL/tyJzdiRQL899PxguqOJdVhA4yZ2nSosnU="
+    #apiKey: "K1ENRJ7EVvhM2s4vtjrYXBh/AAIbYdaPlIUFNRV3s4MH3B4vqGTOl6Do6lrNuRDAkJFQy3JkuOx4wxifJDN5LzF4oklWtP23EP+Kk90oDWQXx3AesG8Ka6WINcPo14asUGGCUi57hnQuZokW5LZmO4vToBzwmn0nNrga79H9TaX6f8HCxDuWDCiBlLx35t+up+pxslJqBUDwNQSn3ru+TMBsFSau5rDJ8bhqzNyu0WeubvNUI4PwpdPBHcyM1KLu+GKUcHT32mkYqGjv34h9pLR6tbONn2SO+FUyt5dXC5H5tKjubeE8vFtVFAXLa1PckjCOns2YHusbl7+NAUzQOW7N18qULfB76co/xtuYFqG1cQVdi3k3x4Rk3b61mtT2FNr5O9bwk9q26IyE0baflyxEO6kuQj8lhbelRlP54HH2F5JY8MMyK21KEGlWPzxo//JU3taoEfLVFY5OQMUyttNlH8iqZz5Orvc68LjwJO6LSMzJYBDu+cmAvJK8CnJCnDK0sHYWle1YS2JTStK3bq/1MMsOTYNGRauaueH3ULnImLKXCWhhGvAyghYpB+bf2U6KYuDZj3RFc77xdrADlWdvIXuKTIbGHffQACz5dsibiHfkwVunT+To7ghSZWd01C5c3WpjL/tyJzdiRQL899PxguqOJdVhA4yZ2nSosnU="
 
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    domain: "cg8z1NAiF9GfKctChdvZKDVxOqYhq5kpXOr9HTwxFxss43L3n7uih3O92umJEpOmdIRzHAnugy/vlBnzyBBTvmvHeOCsw4ruIV4OG0adj0/EK0K1HBWjYW72Bj5T2LpTapkUSuUrT7iQRV+o7h+iKS4wukCLR3PSeAv71O3S/4+kugaUvfao4CE4pUofo/q0IOnlqVm2BRkKxzpZ/zYakOq/hCNGMgDiKqMwa+4NR44nZy3x8De1Nqh1fVV1OeA7NE3iofXyNHtVhMKqFgU/MpOgoCdJmiSQUJvhOBt8OsOZW+e/98XCCaxhAkPQrb3ON+2yNnDr3nMcyEFJ5TgYDXs9kRPWg1BstW8PKmO5099vwTYEOF4hwXAWv0bdzUDxgX3tUDXex3vdcmCUgrR2D93NmDkp+78VLXJB+qNs+3+b0lG3xgfBSl5rXgloJj+A7GeRT+/ZdGS5G1lwLTZ/wQlJNbuH/u4Yff231fASyvfE+kDiKtYluoN24uPCwWPsyg4ugzi9b3H/sxBb5gsvXd0opzid3f8ubTJ3vzMJjL1BOytBhejiPA8EhAp7fwNzaWRn/G+Mcr5uhav4kYfettUYcdJdevCnRpFU37B+hAOvX64uxBQJLt3/T+hueHfwdIuSnmlRzJ67sNko/6aHAgJcwNs73atRi8TILhPj6HU="
+    #domain: "cg8z1NAiF9GfKctChdvZKDVxOqYhq5kpXOr9HTwxFxss43L3n7uih3O92umJEpOmdIRzHAnugy/vlBnzyBBTvmvHeOCsw4ruIV4OG0adj0/EK0K1HBWjYW72Bj5T2LpTapkUSuUrT7iQRV+o7h+iKS4wukCLR3PSeAv71O3S/4+kugaUvfao4CE4pUofo/q0IOnlqVm2BRkKxzpZ/zYakOq/hCNGMgDiKqMwa+4NR44nZy3x8De1Nqh1fVV1OeA7NE3iofXyNHtVhMKqFgU/MpOgoCdJmiSQUJvhOBt8OsOZW+e/98XCCaxhAkPQrb3ON+2yNnDr3nMcyEFJ5TgYDXs9kRPWg1BstW8PKmO5099vwTYEOF4hwXAWv0bdzUDxgX3tUDXex3vdcmCUgrR2D93NmDkp+78VLXJB+qNs+3+b0lG3xgfBSl5rXgloJj+A7GeRT+/ZdGS5G1lwLTZ/wQlJNbuH/u4Yff231fASyvfE+kDiKtYluoN24uPCwWPsyg4ugzi9b3H/sxBb5gsvXd0opzid3f8ubTJ3vzMJjL1BOytBhejiPA8EhAp7fwNzaWRn/G+Mcr5uhav4kYfettUYcdJdevCnRpFU37B+hAOvX64uxBQJLt3/T+hueHfwdIuSnmlRzJ67sNko/6aHAgJcwNs73atRi8TILhPj6HU="
   # (*) REQUIRED
   #
   # Destination path (directory) for the data files. Accepts placeholders.
@@ -86,7 +86,7 @@ comments:
     #siteKey:
     #secret:
   
-  #akismet settings
+    #akismet settings
   #akismet.enabled: true
   #author:
   #authorEmail:
