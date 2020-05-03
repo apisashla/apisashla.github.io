@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Altar"
+date: 2020-05-02 20:30:00
+categories: religion
+comments: true
+---
+
