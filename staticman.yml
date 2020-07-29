@@ -53,20 +53,19 @@ comments:
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
   # with Mailgun, which you can get for free at http://mailgun.com.
-  # notifications:
+  notifications:
     # Enable notifications
-    #enabled: true
+    enabled: true
     #fromAddress: "noreply@apisashla.com"
 
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    #apiKey: "K1ENRJ7EVvhM2s4vtjrYXBh/AAIbYdaPlIUFNRV3s4MH3B4vqGTOl6Do6lrNuRDAkJFQy3JkuOx4wxifJDN5LzF4oklWtP23EP+Kk90oDWQXx3AesG8Ka6WINcPo14asUGGCUi57hnQuZokW5LZmO4vToBzwmn0nNrga79H9TaX6f8HCxDuWDCiBlLx35t+up+pxslJqBUDwNQSn3ru+TMBsFSau5rDJ8bhqzNyu0WeubvNUI4PwpdPBHcyM1KLu+GKUcHT32mkYqGjv34h9pLR6tbONn2SO+FUyt5dXC5H5tKjubeE8vFtVFAXLa1PckjCOns2YHusbl7+NAUzQOW7N18qULfB76co/xtuYFqG1cQVdi3k3x4Rk3b61mtT2FNr5O9bwk9q26IyE0baflyxEO6kuQj8lhbelRlP54HH2F5JY8MMyK21KEGlWPzxo//JU3taoEfLVFY5OQMUyttNlH8iqZz5Orvc68LjwJO6LSMzJYBDu+cmAvJK8CnJCnDK0sHYWle1YS2JTStK3bq/1MMsOTYNGRauaueH3ULnImLKXCWhhGvAyghYpB+bf2U6KYuDZj3RFc77xdrADlWdvIXuKTIbGHffQACz5dsibiHfkwVunT+To7ghSZWd01C5c3WpjL/tyJzdiRQL899PxguqOJdVhA4yZ2nSosnU="
-
+    apiKey: "HkDUu8rhl6SIgzlOEgejhBVpsp/guYuVGHqcziGJzIbhCwUtCzlweqj2vQZrtRB07OalyoAUK5O0438FIsUkcQZY08/PvZE4uDg/FZ2yxdW4NUFnV+S3rXgVbFovBvCfaKtfWQU9jEaHVzKmlcLoB5h+ii8KgfREVD6wi55BSyGoUa1mqAgEeSBgue1tfl5PT8fbcoEkIskpWpZ8EYxJaGWqZO+npARggBTo45o5nGnmXqrNYnCL2q2Z7kG058k8DWWOTrlNiQCCgbBcWx0DTB1pakKjHrl/1GWkwABlF5w4JNu+6WgN6yMm/84VcHUV4xZHo9AxKt0Lfd8rXwF/VqT/BM6+DDaMshi9dcw2FmDEJJUe9VOQoj2700UkfcEdgrMFXZkfJB66wzZXRvkfo8pyAotWWf29EyGjlzQegNstHsd4Y1gW8y/wO1tBHoBSj9Ht/LBFV4BFnWvObPWV9PwD+hp08ijaGCS5ryDb40rTLJUM+wJQkkeUb9Kv0Y4gmSmWbVJpfhoRN2ZqIPggswK7OmZhbulkec5382Xw5GB5SHEi7ul+PKdsYDe/Y4PLdtbzJjPUv0nTSeu8CxZE3emohnMwtbYxfdUUPevI4mX+m1SDPJOfTGrfM+Ila5q7iQdNlSeJ919A2kAiatXu3VcB1FXz3qTNiuYmxPjEHV0="
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    #domain: "cg8z1NAiF9GfKctChdvZKDVxOqYhq5kpXOr9HTwxFxss43L3n7uih3O92umJEpOmdIRzHAnugy/vlBnzyBBTvmvHeOCsw4ruIV4OG0adj0/EK0K1HBWjYW72Bj5T2LpTapkUSuUrT7iQRV+o7h+iKS4wukCLR3PSeAv71O3S/4+kugaUvfao4CE4pUofo/q0IOnlqVm2BRkKxzpZ/zYakOq/hCNGMgDiKqMwa+4NR44nZy3x8De1Nqh1fVV1OeA7NE3iofXyNHtVhMKqFgU/MpOgoCdJmiSQUJvhOBt8OsOZW+e/98XCCaxhAkPQrb3ON+2yNnDr3nMcyEFJ5TgYDXs9kRPWg1BstW8PKmO5099vwTYEOF4hwXAWv0bdzUDxgX3tUDXex3vdcmCUgrR2D93NmDkp+78VLXJB+qNs+3+b0lG3xgfBSl5rXgloJj+A7GeRT+/ZdGS5G1lwLTZ/wQlJNbuH/u4Yff231fASyvfE+kDiKtYluoN24uPCwWPsyg4ugzi9b3H/sxBb5gsvXd0opzid3f8ubTJ3vzMJjL1BOytBhejiPA8EhAp7fwNzaWRn/G+Mcr5uhav4kYfettUYcdJdevCnRpFU37B+hAOvX64uxBQJLt3/T+hueHfwdIuSnmlRzJ67sNko/6aHAgJcwNs73atRi8TILhPj6HU="
+    domain: "JhtIXrTJvXc9V18MMNgHjpHsuyCPpJyIxlNW1gR+XRoBM3ZKuycZskTnmA2i8fZJgH1u0hSv8CDMIfIlnmr1TLg0VetwgG6fZl+zw+H0G+qdwju0MuCFU0NnyVRHh9X1h9VK9Zv+ppRLoouqjE3P1ETdX1Lt2uxOR1moY9KbSZ3nw+aDVsKfYMGltrWgI4Avlf8+1uslKVOg++wt1HljUUjdybD/ZwYIfOZB/y7HUoAa1VYJrxMBZTW52PLLhc+vQ7mkysgGHnIIh2OBfErhncQz9v+Ukehjx8c847Je3ieDtEEyURhOdtgt/uk28VPZayQdXxtW86UG7oD9hiByvB5MjpszF2bvVtB0Qg9Usp0nKAO4uIGXizi0GCQESrng0r8brf6rCL+7ApYijQMYagBvmPZGT/zBneaFgFJO4r47wi9hyHqWjmalPwUosKeQW1n3cS1oUuN2FkJFkeio6c0nsxMrb2AaREHSM27Fn8DqoDVpmcNp69CTseYoXABLrO4B4yQCjnlEX8tLNdPzPEnbvZWhCZPj0pT3V4mfV8mJP4etaQyNjtXzZsEHOs2Q45tMfvb6/AFrez2UX5gcwaJBsLXLCGAsin/IXvqSR7JDNpC/f68pmqVNHP7YuiNGoze/77wyQ8+5LLPzaSBXG0E7OnFNeldncQUsaUQqZvs="
   # (*) REQUIRED
   #
   # Destination path (directory) for the data files. Accepts placeholders.
