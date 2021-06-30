@@ -85,9 +85,11 @@ comments:
     #siteKey:
     #secret:
   
-    #akismet settings
-  akismet.enabled: true
-  author: "name"
-  authorEmail: "email"
-  authorURL: "url"
-  content: "message"
+  #akismet settings
+
+    akismet:
+        enabled: true
+        author: "name"
+        authorEmail: "email"
+        authorURL: "url"
+        content: "message"
