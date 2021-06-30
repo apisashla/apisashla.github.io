@@ -87,9 +87,9 @@ comments:
   
   #akismet settings
 
-    akismet:
-        enabled: true
-        author: "name"
-        authorEmail: "email"
-        authorURL: "url"
-        content: "message"
+    #akismet:
+    #enabled: true
+    #author: "name"
+    #authorEmail: "email"
+    #authorURL: "url"
+    #content: "message"
