@@ -18,14 +18,16 @@
       data: $(this).serialize(),
       contentType: 'application/x-www-form-urlencoded',
       success: function (data) {
-        showModal('Comment submitted', 'Thanks! Your comment is <a href="https://github.com/apisashla/apisashla.github.io/pulls">pending</a>. It will appear when approved.');
+        showModal('Comment submitted', 'Thanks! Your comment is <a href="https://github.com/travisdowns/travisdowns.github.io/pulls">pending</a>. It will appear when approved.');
 
         $("#comment-form-submit")
           .html("Submit");
 
         $(form)[0].reset();
         $(form).removeClass('disabled');
-        grecaptcha.reset();
+        if (window.grecaptcha) {
+          grecaptcha.reset();
+        }
       },
       error: function (err) {
         console.log(err);
@@ -33,7 +35,9 @@
         showModal('Error', 'An error occured.<br>[' + ecode + ']');
         $("#comment-form-submit").html("Submit")
         $(form).removeClass('disabled');
-        grecaptcha.reset();
+        if (window.grecaptcha) {
+          grecaptcha.reset();
+        }
       }
     });
     return false;
@@ -56,21 +60,19 @@
 // addComment.moveForm is called from comment.html when the reply link is clicked.
 var addComment = {
   // commId - the id attribute of the comment replied to (e.g., "comment-10")
-  // parentId - the numeric index of comment repleid to (e.g., 10)
   // respondId - the string 'respond', I guess
   // postId - the page slug
-  moveForm: function( commId, parentId, respondId, postId, parentUid ) {
+  moveForm: function( commId, respondId, postId, parentUid ) {
     var div, element, style, cssHidden,
     t           = this,                    //t is the addComment object, with functions moveForm and I, and variable respondId
     comm        = t.I( commId ),                                // whole comment
     respond     = t.I( respondId ),                             // whole new comment form
     cancel      = t.I( 'cancel-comment-reply-link' ),           // whole reply cancel link
-    parent      = t.I( 'comment-replying-to' ),                 // hidden element in the comment
     parentuidF  = t.I( 'comment-replying-to-uid' ),             // a hidden element in the comment
     post        = t.I( 'comment-post-slug' ),                   // null
     commentForm = respond.getElementsByTagName( 'form' )[0];    // the <form> part of the comment_form div
 
-    if ( ! comm || ! respond || ! cancel || ! parent || ! commentForm ) {
+    if ( ! comm || ! respond || ! cancel || ! parentuidF || ! commentForm ) {
       return;
     }
 
@@ -88,7 +90,6 @@ var addComment = {
     if ( post && postId ) {
       post.value = postId;
     }
-    parent.value = parentId;
     parentuidF.value = parentUid;
     cancel.style.display = '';                        //make the cancel link visible
 
@@ -101,7 +102,6 @@ var addComment = {
         return;
       }
 
-      t.I( 'comment-replying-to' ).value = null;      // forget the identity of the reply-to comment
       t.I( 'comment-replying-to-uid' ).value = null;
       temp.parentNode.insertBefore( respond, temp );  //move the comment form to its original location
       temp.parentNode.removeChild( temp );            //remove the bookmark div

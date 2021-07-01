@@ -20,15 +20,22 @@ input, select, textarea, label, button {
             font-feature-settings: "kern" 1;
     font-kerning: normal;
 }
+
 fieldset {
     border: none;
     padding: 0;
 }
 
+// each staticman text field is wrapped in this div
 .textfield {
-    width: 420px;
     max-width: 100%;
     padding: 0.5rem 0;
+}
+
+// fields except the comment field get this class too
+// to keep them a reasonable size
+.narrowfield {
+    width: 420px;
 }
 
 .hp {
@@ -74,6 +81,11 @@ button:hover {
 }
 .comment__author {
     color: $grey-color;
+}
+.comment__admin_tag {
+    background-color: rgb(187, 255, 187);
+    border-radius: 3px;
+    padding: 3px;
 }
 .comment__date {
     font-size: $small-font-size;
