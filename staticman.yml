@@ -56,7 +56,7 @@ comments:
   notifications:
     # Enable notifications
     enabled: true
-    #fromAddress: "noreply@apisashla.com"
+    fromAddress: "noreply@apisashla.com"
 
     # (!) ENCRYPTED
     #
