@@ -4,6 +4,7 @@ title: "Test post"
 date: 2021-06-29 01:13:00 -0400
 author: ash
 categories: test
+comments: true
 ---
 This post is intended to test the posting capabilities of my new blog.
 
