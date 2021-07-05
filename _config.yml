@@ -72,4 +72,4 @@ timezone: America/New_York
 #
 # for me, this line reads:
 # https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
-staticman_url: https://staticman-apisashla.herokuapp.com/v3/entry/github/apisashla/apisashla.github.io/gh-pages/comments
+staticman_url: https://staticman-apisashla.herokuapp.com/v3/entry/github/apisashla/apisashla.github.io/master/comments
