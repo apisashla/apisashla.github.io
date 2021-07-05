@@ -1,4 +1,4 @@
-iiiio8# Name of the property. You can have multiple properties with completely
+# Name of the property. You can have multiple properties with completely
 # different config blocks for different sections of your site.
 # For example, you can have one property to handle comment submission and
 # another one to handle posts.
@@ -17,7 +17,7 @@ comments:
   #
   # Name of the branch being used. Must match the one sent in the URL of the
   # request.
-  branch: gh-pages
+  branch: master
 
   # Text to use as the commit message or pull request title. Accepts placeholders.
   commitMessage: "Comment from {fields.name} on {options.slug}"
@@ -26,7 +26,7 @@ comments:
   # (*) REQUIRED
   #
   # Destination path (filename) for the data files. Accepts placeholders.
-  filename: "entry{@timestamp}"
+  filename: "entry{@date:YYYY-MM-DD}-{@timestamp}"
 
   # The format of the generated data files. Accepted values are "json", "yaml"
   # or "frontmatter"
@@ -40,7 +40,7 @@ comments:
     date:
       type: date
       options:
-        format: "timestamp-seconds"
+        format: "iso8601"
 
   # Whether entries need to be appproved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
@@ -56,7 +56,7 @@ comments:
   notifications:
     # Enable notifications
     enabled: true
-    #fromAddress: "noreply@apisashla.com"
+    fromAddress: "noreply@apisashla.com"
 
     # (!) ENCRYPTED
     #
@@ -85,9 +85,11 @@ comments:
     #siteKey:
     #secret:
   
-    #akismet settings
-  akismet.enabled: true
-  author: "name"
-  authorEmail: "email"
-  authorURL: "url"
-  content: "message"
+  #akismet settings
+
+    #akismet:
+    #enabled: true
+    #author: "name"
+    #authorEmail: "email"
+    #authorURL: "url"
+    #content: "message"
